@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+.add-report {
+    position: absolute !important;
+    // height: 1000px;
+    @include mobile {
+        left: 0;
+        right: 0;
+        top: -20 !important;
+        margin: 0 auto !important;
+        z-index: 1 !important;
+    }
+    bottom: 40px;
+    right: 20px;
+}

@@ -1,0 +1,7 @@
+@import '../../styles/mixins';
+.rp-detail-of-rptor__mobile-bar {
+    display: none !important;
+    @include mobile {
+        display: flex !important;
+    }
+}
